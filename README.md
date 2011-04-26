@@ -4,28 +4,28 @@ wlkmn.js is a fast, robust, and lightweight framework for creating and manipulat
 
 Browser Support
 ---------------
-Chrome
-Safari
-Firefox Support **
-Internet Explorer 9
-iOS 4.2+
+* Chrome
+* Safari
+* Firefox Support **
+* Internet Explorer 9
+* iOS 4.2+
 
 Features
 --------
-Small Footprint
-Auto Advance
-Multiple Players *
-Visible Playlist
-Custom CSS class
-Pure CSS Skins
+* Small Footprint
+* Auto Advance
+* Multiple Players *
+* Visible Playlist
+* Custom CSS class
+* Pure CSS Skins
 
 Planned Enhancements
 --------------------
-Albums
-Shuffle Play
-Android
-jQuery,Dojo, and Prototype Support
-iTunes Import/Convert
+* Albums
+* Shuffle Play
+* Android
+* jQuery, Dojo, and Prototype Support
+* iTunes Import/Convert
 
 Notes
 -----
