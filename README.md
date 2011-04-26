@@ -29,5 +29,5 @@ Planned Enhancements
 
 Notes
 -----
-* Only supported in Safari and Chrome, not iOS.
-** With Flash shim until Mozilla comes to their senses and adds support for MP3.
+(*) Only supported in Safari and Chrome, not iOS.
+(**) With Flash shim until Mozilla comes to their senses and adds support for MP3.
