@@ -1,0 +1,136 @@
+/*  HTML5 ✰ Boilerplate  */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,  footer, header, hgroup, 
+menu, nav, section, summary, time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}                  
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display:block;
+}
+nav ul { list-style:none; }
+blockquote, q { quotes:none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content:''; content:none; }
+a { margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; }
+ins { background-color:#ff9; color:#000; text-decoration:none; }
+mark { background-color:#ff9; color:#000; font-style:italic; font-weight:bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom:1px dotted; cursor:help; }
+table { border-collapse:collapse; border-spacing:0; }
+hr { display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 0; padding:0; }
+input, select { vertical-align:middle; }
+
+
+body { font:13px/1.231 sans-serif; *font-size:small; } 
+select, input, textarea, button { font:99% sans-serif; }
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+body, select, input, textarea {   color: #444; }
+h1,h2,h3,h4,h5,h6 { font-weight: bold; }
+html {  }
+
+a:hover, a:active { outline: none; }
+a, a:active, a:visited { color: #607890; }
+a:hover { color: #036; }
+
+ul, ol { margin-left: 1.8em; }
+ol { list-style-type: decimal; }
+
+nav ul, nav li { margin: 0; } 
+small { font-size: 85%; }
+strong, th { font-weight: bold; }
+td, td img { vertical-align: top; } 
+sub { vertical-align: sub; font-size: smaller; }
+sup { vertical-align: super; font-size: smaller; }
+pre {  padding: 15px;  white-space: pre;  white-space: pre-wrap;  white-space: pre-line;  word-wrap: break-word; }
+textarea { overflow: auto; } 
+.ie6 legend, .ie7 legend { margin-left: -7px; } 
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; }
+.ie7 input[type="checkbox"] { vertical-align: baseline; }
+.ie6 input { vertical-align: text-bottom; }
+label, input[type=button], input[type=submit], button { cursor: pointer; }
+button, input, select, textarea { margin: 0; }
+input:valid, textarea:valid   {  }
+input:invalid, textarea:invalid { border-radius: 1px;  -moz-box-shadow: 0px 0px 5px red; -webkit-box-shadow: 0px 0px 5px red;  box-shadow: 0px 0px 5px red; }
+.no-boxshadow input:invalid, 
+.no-boxshadow textarea:invalid { background-color: #f0dddd; } 
+
+button {  width: auto; overflow: visible; }
+.ie7 img { -ms-interpolation-mode: bicubic; }
+
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.hidden { display: none; visibility: hidden; } 
+.visuallyhidden { position: absolute !important; clip: rect(1px 1px 1px 1px);  clip: rect(1px, 1px, 1px, 1px); }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after {  content: "\0020"; display: block; height: 0; visibility: hidden;	 } 
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+/* Primary Styles
+   Author: 
+*/
+ 
+object.wlkmn-FlashShim {display:none;}
+/* REQUIRED BUTTON STYLES: */		
+button, a.button {display:inline-block; position:relative; border:0; padding:0; cursor:pointer; overflow:visible; /* removes extra side padding in IE */}
+button::-moz-focus-inner, a.btn-primary::-moz-focus-inner{border:0; padding:0;  /* overrides extra padding in Firefox */}
+a.button {display:inline-block;}
+/* Safari and Google Chrome only - fix margins */
+@media screen and (-webkit-min-device-pixel-ratio:0) { button span{ margin-top: -1px; } }
+
+body {background:#ccc;}
+#bd {background:#ccc; padding:10px 10px 0;}
+
+
+.wlkmn-player {overflow:hidden; width:800px; padding:10px; -webkit-border-radius:10px 10px 0 0; -moz-border-radius:10px 10px 0 0; border-radius:10px 10px 0 0; border:solid 1px #444; margin:10px auto;}
+.blue {background:blue;}
+
+.progress {text-indent:-999em;}
+
+/* Info Screen Styles */
+.infoScreen { float:left; position:relative; background:#D6DBBF; border:solid 1px #444; height:40px; width:400px; margin:5px 20px; -webkit-border-radius:3px;}
+.infoScreen .data {line-height:40px; font-size:30px; font-family:monaco; vertical-align:middle; padding:0 10px;}
+.infoScreen .time {font-size:12px; font-family:monaco; position:absolute; top:10px; right:10px;}
+.infoScreen .progressWrapper { height:2px; width:100%; position:absolute; bottom:4px; left:0; background:#666; display:block;}
+.infoScreen .progress { height:2px; background:#444; display:block;}
+.infoScreen .text {font-size:12px; font-family:monaco; position:absolute; top:10px; left:10px;}
+
+/* Playlist Styles */
+.playlist { width:100%;}
+.playlist h1 {padding:5px 10px; margin:0; color:#eee; background:#4f85bb; border-left:solid 1px #444; border-right:solid 1px #444; border-top:solid 1px #444;}
+.playlist ul {margin:0; list-style:none; border:solid 1px #444; background:#eee; padding:0;}
+.playlist ul li {list-style:none; padding:5px 10px; -webkit-transition: background 500ms linear; position:relative; border-bottom:solid 1px #444;}
+.playlist ul li:last-child {border-bottom:none;}
+.playlist ul li.current { background:#93cede; color:#444; }
+.playlist ul li.current a { color:#eee; position:relative; z-index:2; text-decoration:none; }
+.playlist ul li span.progress {display:none;}
+.playlist ul li.current span.progress { display:block; width:0; background-color:#607890; position:absolute; left:0; top:0; z-index:1; height:100%;}
+
+/* Controls styles */
+.controls {overflow:hidden; margin-left:20px; float:left;}
+.controls button {height:48px; width:32px; text-align:center; background:none; margin:1px 0; text-indent:-999em;}
+.controls button.Play {background:url("../images/play.png") no-repeat center; height:24px; width:24px; margin:13px 5px; }
+.controls button.Pause {background:url("../images/pause.png") no-repeat center center; height:24px; width:24px; margin:13px 5px; }
+
+.controls button.Play.inactive {display:none;}
+.controls button.Pause.inactive {display:none}
+
+.controls button.Next {background:url("../images/next.png") no-repeat center center; height:20px; width:28px; margin:15px 0;}
+.controls button.Prev {background:url("../images/prev.png") no-repeat center center; height:20px; width:28px; margin:15px 0;}
+.controls .vol {display:inline-block; height:20px; margin:15px 10px 15px 0;}
+.controls .vol input {margin-top:4px; display:block;}
+.controls button.Mute {text-indent:0; margin-right:10px;}
+
+
