@@ -1,0 +1,25 @@
+wlkmn.js
+========
+wlkmn.js is a fast, robust, and lightweight framework for creating and manipulating HTML5 <audio> MP3 players. More info here: http://labs.dangerisgo.com/wlkmn
+
+== Browser Support
+Chrome
+Safari
+Internet Explorer 9
+iOS 4.2+
+
+== Features:
+Small Footprint
+Auto Advance
+Multiple Players *
+Visible Playlist
+Custom CSS class
+Pure CSS Skins
+
+== Planned Enhancements:
+Firefox Support **
+Albums
+Shuffle Play
+Android
+jQuery,Dojo, and Prototype Support
+iTunes Import/Convert
