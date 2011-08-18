@@ -1,4 +1,5 @@
 /**
+ * wlkmn.js V2
  * @author Cameron Wardzala
  * License: http://wlkmn.com/license
  */
